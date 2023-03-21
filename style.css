@@ -5,7 +5,7 @@ body {
 
 .header, .hero {
     background: #1F2937;
-    padding: 16px 240px;
+    padding: 16px 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,9 +31,6 @@ a {
     color: #e5e7eb;
 }
 
-.hero {
-    background: #1F2937;
-}
 
 .hero-text {
     color: #f9faf8;
@@ -49,8 +46,19 @@ a {
 button {
     background-color: #3882f6;
     color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
 
 .rectangle {
     color: #f9faf8;
+    height: 300px;
+    width: 600px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
