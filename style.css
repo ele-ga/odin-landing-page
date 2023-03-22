@@ -203,3 +203,8 @@ div.quote {
     border: 2px solid white;
     flex-shrink: 0;
 }
+
+.footer {
+    background: #1F2937;
+    color: #e5e7eb;
+}
