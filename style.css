@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .top {
@@ -115,8 +116,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 150px;
-    gap: 16px;
+    max-width: 200px;
+    gap: 36px;
 
 }
 
@@ -133,8 +134,8 @@ button {
 
 .box
 {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 3px solid #3882f6;
     border-radius: 8px;
 }
@@ -152,14 +153,15 @@ button {
     width: 100vw;
 }
 
-.quote {
+div.quote {
     width: 700px;
+
 }
 
 
 #quote-text {
     text-align: right;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     font-weight: bold;
 }
