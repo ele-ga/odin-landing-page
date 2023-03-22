@@ -70,7 +70,7 @@ button {
     font-size: 18px;
     font-weight: bold;
     border: none;
-    padding: 8px 16px;
+    padding: 8px 24px;
     border-radius: 8px;
     
 }
@@ -165,4 +165,41 @@ div.quote {
     font-size: 24px;
     font-style: normal;
     font-weight: bold;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 300px;
+}
+
+.cta-box {
+    background: #3882f6;
+    border-radius: 6px;
+    padding: 60px 200px;
+    
+    display: flex;
+    
+}
+
+.cta-title {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.cta-text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cta-left {
+    width: 600px;
+    
+}
+
+.cta-box button {
+    border: 2px solid white;
+    flex-shrink: 0;
 }
